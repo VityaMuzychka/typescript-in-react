@@ -1,9 +1,11 @@
 import './App.css';
+import { Person } from './Person';
 
 function App() {
+
   return (
     <div className="App">
-     <h1>Hey</h1>
+     <Person name='Anna' email='anna@gmail.com' age={21} isMarried={true} friends={['Inna', 'Olena', 'Vika']} />
     </div>
   );
 }
